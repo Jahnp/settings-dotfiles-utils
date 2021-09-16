@@ -1,0 +1,37 @@
+# Readme
+# To install these applications or bring them all to the latest version,
+# copy the Brewfile to your Document folder and call the following command:
+# brew bundle --file ~/Documents/Brewfile
+# brew bundle install
+
+# Install third-party repositories
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/core"
+tap "homebrew/services"
+tap "buo/cask-upgrade"
+
+# Install packages
+# brew "awscli"
+brew "git"
+brew "mas"
+
+# Essentials
+cask "1password"
+cask "spotify"
+cask "karabiner-elements"
+cask "scroll-reverser"
+
+# Communicate
+cask "microsoft-teams"
+
+# Web development
+cask "colour-contrast-analyser"
+cask "firefox"
+cask "google-chrome"
+# cask "kaleidoscope"
+cask "microsoft-edge"
+# cask "poedit" # Translation editor. Seems interesting, but don't really need it right now.
+
+# Utilities
+cask "imageoptim"
